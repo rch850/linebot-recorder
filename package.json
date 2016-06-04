@@ -1,0 +1,34 @@
+{
+  "name": "linebot-recorder",
+  "version": "0.1.0",
+  "description": "Record LINE Bot Event to DynamoDB.",
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --compilers coffee:coffee-script/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rch850/linebot-recorder.git"
+  },
+  "author": "rch850",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rch850/linebot-recorder/issues"
+  },
+  "homepage": "https://github.com/rch850/linebot-recorder",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "coffee-script": "^1.10.0",
+    "mocha": "^2.5.3",
+    "node-lambda": "^0.8.5"
+  },
+  "dependencies": {
+    "dynamodb-doc": "^1.0.0"
+  }
+}
